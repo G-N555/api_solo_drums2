@@ -6,14 +6,18 @@ const logger = require('morgan');
 
 const app = express();
 
+//require route file
 const drums = require('./api/drums');
 
+//middleware
 app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
+
+//initialize routes
 app.use('/api/v1/drums', drums);
 
 // catch 404 and forward to error handler
