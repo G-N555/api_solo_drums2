@@ -51,6 +51,14 @@ const drums = [
   material: 'Cypress' } 
 ];
 
+const drum = {
+  "name": "Free Floating",
+  "brand": "Pearl",
+  "size": "x14",
+  "material": "Maple"
+};
+
 module.exports = {
+  drum,
   drums
 };
