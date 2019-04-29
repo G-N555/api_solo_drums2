@@ -14,3 +14,8 @@ Drum shop deals Drum only from world wide.
 - Apply http method (Post, Get, Put, Delete)
 - Sinon test double(spy, stub)
 - HTML page
+
+## Comming soon...
+
+- HMTL apply make page nicely
+- Add function HTML to Post, Edit, Search and Delete
